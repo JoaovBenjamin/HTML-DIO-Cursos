@@ -22,3 +22,11 @@ as tags de <h1> até <h6>, são tag de texo, como também o <p> e <span>.
 Tag IMG
 
 a tag <img> é um tag que guarda as imagens, o elemento <img src=""> é o direcionamento da imagem e o <img alt = ""> é para melhorar a acessebilidade do seu site.
+
+Listas
+
+a tag <ul> representa uma lista não-ordenadas
+
+a tag <ol> representa um lista ordenada
+
+a tag <li> é o conteudo da lista
