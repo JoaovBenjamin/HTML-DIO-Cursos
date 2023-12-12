@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table tr:nth-child(even){
+            background-color:blue;
+        }
+
+        table tr:hover td{
+            background-color: antiquewhite;
+        }
+
+        table thead th{
+            background-color: black;
+        }
+
+        table tfoot td{
+            background-color: darkblue;
+        }
+
+        table tbody tr:nth-child(even) td{
+            background-color: brown;
+        }
+        table tbody tr:hover td{
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    <table summary="Idades da turma A" align="center" cellspacing="0" cellpadding="1">
+       <caption>Tabelas de Aluno</caption>
+        <thead>
+            <tr>
+                <th title="Nome Completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+       </thead>
+       <tbody>
+            <tr>
+                <td>Diogo</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>25</td>
+            </tr>
+       </tbody>
+       <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>100</td>
+            </tr>
+       </tfoot>
+    </table>
+</body>
+</html>
